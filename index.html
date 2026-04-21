@@ -2,60 +2,142 @@
 <html>
 <head>
     <title>Rivanshi Munjal</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background: #0f172a;
+            color: white;
+        }
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #6366f1, #06b6d4);
+        }
+        h1 { margin: 0; font-size: 40px; }
+        h2 { margin-top: 10px; font-weight: 300; }
+
+        .container {
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 15px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            background: #334155;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #22c55e;
+            color: black;
+            padding: 6px 10px;
+            margin: 5px;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #020617;
+        }
+    </style>
 </head>
-<body style="font-family: Arial; margin: 40px;">
 
-    <h1>RIVANSHI</h1>
+<body>
+
+<header>
+    <h1>Rivanshi Munjal</h1>
     <h2>Aspiring Full-Stack Software Engineer</h2>
+</header>
 
-    <h3>ABOUT ME</h3>
-    <p>
-    Full-stack development student with hands-on experience in Java, JavaScript, React,
-    Node.js, and databases. Strong in DSA and OOP, with a focus on writing clean code and
-    building real, user-focused applications.
-    </p>
+<div class="container">
 
-    <h3>CONTACT</h3>
-    <p>Phone: +91 9034845536</p>
-    <p>Email: munjalrivanshi@gmail.com</p>
-    <p>Location: Kaithal, Haryana</p>
+    <div class="section">
+        <h3>About Me</h3>
+        <p>
+        Full-stack development student with hands-on experience in Java, JavaScript, React,
+        Node.js, and databases. Strong in DSA and OOP, focused on clean code and building real, user-focused applications.
+        </p>
+    </div>
 
-    <h3>TECHNICAL SKILLS</h3>
-    <p><b>Languages:</b> Java, JavaScript, Python, C/C++</p>
-    <p><b>Backend:</b> Spring Boot, Hibernate, Node.js, Express, REST APIs</p>
-    <p><b>Frontend:</b> React.js, HTML, CSS, Responsive UI</p>
-    <p><b>Databases:</b> MySQL, PostgreSQL, MongoDB</p>
-    <p><b>Tools:</b> Git, GitHub, Postman, AWS (Basics)</p>
-    <p><b>CS Fundamentals:</b> DSA, OOP, System Design Basics</p>
+    <div class="section">
+        <h3>Technical Skills</h3>
+        <div class="skills">
+            <span>Java</span><span>JavaScript</span><span>Python</span><span>C/C++</span>
+            <span>Spring Boot</span><span>Node.js</span><span>Express</span>
+            <span>React</span><span>MongoDB</span><span>PostgreSQL</span>
+            <span>MySQL</span><span>AWS</span><span>DSA</span>
+        </div>
+    </div>
 
-    <h3>PROJECTS</h3>
+    <div class="section">
+        <h3>Projects</h3>
 
-    <h4>SkillSpark Learning Website | HTML, CSS, Javascript</h4>
-    <p>Built a responsive learning platform with modular UI and clean navigation for quick content discovery.</p>
-    <p>Added a lightweight chatbot for FAQs and course guidance using scripted intents and context handoffs.</p>
-    <p>Implemented OTP-based email authentication for secure sign-in and one-time access verification.</p>
+        <div class="card">
+            <h4>SkillSpark Learning Website</h4>
+            <p>Responsive learning platform with modular UI and chatbot for FAQs.</p>
+        </div>
 
-    <h4>Hospital Patient Management API | Node.js, Express.js, MongoDB</h4>
-    <p>Developed secure CRUD APIs for managing patients, doctor assignment, and medical records.</p>
-    <p>Implemented modular routing, validations, and optimized queries using MongoDB.</p>
-    <p>Added text-to-speech for patient summaries—one-click readout in the UI using the Web Speech API.</p>
+        <div class="card">
+            <h4>Hospital Patient Management API</h4>
+            <p>Secure CRUD APIs, doctor assignment, and text-to-speech summaries.</p>
+        </div>
 
-    <h4>Job Registration Portal | Java, Spring MVC, Hibernate</h4>
-    <p>Built REST APIs for job posting, applicant tracking, and role-based access using Spring Boot & Hibernate.</p>
-    <p>Designed relational schema and implemented efficient CRUD operations with pagination.</p>
+        <div class="card">
+            <h4>Job Registration Portal</h4>
+            <p>Spring Boot APIs for job posting, tracking, and role-based access.</p>
+        </div>
 
-    <h4>Event Registration Website | React, Node.js, PostgreSQL</h4>
-    <p>Built role-based event dashboards with creation, registration tracking, and fast real-time search.</p>
-    <p>Designed reusable React components and optimized backend APIs for smooth performance.</p>
+        <div class="card">
+            <h4>Event Registration Website</h4>
+            <p>Role-based dashboards, real-time search, and optimized backend APIs.</p>
+        </div>
 
-    <h3>EDUCATION</h3>
-    <p>Bachelor’s in Software Engineering from Chitkara University (2023 - 2027)</p>
-    <p>Class 12th from O.S.D.A.V Public School (2022 - 2023)</p>
-    <p>Class 10th from O.S.D.A.V Public School (2020 - 2021)</p>
+    </div>
 
-    <h3>CERTIFICATIONS</h3>
-    <p>Infosys Springboard Student Enablement Program – Python Programming</p>
-    <p>Cisco: Apply AI: Analyze Customer Reviews</p>
+    <div class="section">
+        <h3>Education</h3>
+        <p>B.E. Software Engineering – Chitkara University (2023–2027)</p>
+        <p>Class 12 – O.S.D.A.V Public School (2022–2023)</p>
+        <p>Class 10 – O.S.D.A.V Public School (2020–2021)</p>
+    </div>
+
+    <div class="section">
+        <h3>Contact</h3>
+        <p>📧 munjalrivanshi@gmail.com</p>
+        <p>📱 +91 9034845536</p>
+        <p>📍 Kaithal, Haryana</p>
+        <p>
+            🔗 <a href="https://github.com/rivumunjal22" target="_blank">GitHub</a> |
+            <a href="https://www.linkedin.com/in/rivanshi-munjal-84405829a/" target="_blank">LinkedIn</a>
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Rivanshi Munjal
+</footer>
 
 </body>
 </html>
